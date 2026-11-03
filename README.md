@@ -1,7 +1,7 @@
 # Chytrej dům – doplněk
 
-Asistent chytré domácnosti pro stávající instalace domácího systému: dům nastavíš rozhovorem, každá změna
-jde vrátit. Víc na [chytrejdum.cz](https://www.chytrejdum.cz).
+Asistent pro správu a ovládání chytré domácnosti. Doplněk pro stávající instalace domácího systému.
+Víc na [chytrejdum.cz](https://www.chytrejdum.cz).
 
 ## Instalace
 

@@ -1,7 +1,7 @@
 # Chytrej dům
 
-Asistent chytré domácnosti: řekneš, co chceš („rozsviť v noci tlumeně chodbu, když se otevřou dveře“),
-a asistent to nastaví. Každá změna se zapíše do **Historie změn** a jde vrátit.
+Asistent pro správu a ovládání chytré domácnosti. Napíšeš, co chceš („rozsviť v noci tlumeně chodbu, když se otevřou dveře“),
+a asistent to nastaví. Přehled všech změn najdeš v **Historii změn**.
 
 ## Co doplněk smí
 

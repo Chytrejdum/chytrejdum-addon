@@ -4,7 +4,7 @@
 name: Chytrej dům
 version: "0.9.0"
 slug: chytrejdum
-description: Asistent chytré domácnosti – dům nastavíš rozhovorem, každá změna jde vrátit.
+description: Asistent pro správu a ovládání chytré domácnosti.
 url: https://www.chytrejdum.cz
 image: ghcr.io/chytrejdum/chytrejdum-addon-{arch}
 arch:
