@@ -2,7 +2,7 @@
 # Plná práva jako na krabičce (doplňky, zálohy, aktualizace, kamery, Zigbee); změny jen na pokyn uživatele,
 # rizikové s potvrzením – samo od sebe nastavení systému nemění (agent/chytrejdum_agent/addon.py).
 name: Chytrej dům
-version: "0.9.0"
+version: "0.9.1"
 slug: chytrejdum
 description: Asistent pro správu a ovládání chytré domácnosti.
 url: https://www.chytrejdum.cz
@@ -15,9 +15,10 @@ startup: application
 boot: auto
 # síť počítače: hledání kamer a zařízení multicastem v domácí síti (jako domácí systém sám)
 host_network: true
-# aplikace domu jen v panelu; naslouchá jen v síti Supervisoru (172.30.32.1), do domácí sítě port nevede
+# aplikace domu jen v panelu; naslouchá jen v síti Supervisoru (172.30.32.1), do domácí sítě port nevede.
+# Port 0 = přidělí Supervisor: síť počítače je sdílená a pevný port (8099) už může mít jiný doplněk.
 ingress: true
-ingress_port: 8099
+ingress_port: 0
 panel_icon: mdi:home-heart
 panel_title: Chytrej dům
 panel_admin: true
