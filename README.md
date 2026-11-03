@@ -1,15 +1,19 @@
-# Chytrej dům – doplněk
+# Chytrej dům – doplněk / add-on
 
-Asistent pro správu a ovládání chytré domácnosti. Doplněk pro stávající instalace domácího systému.
-Víc na [chytrejdum.cz](https://www.chytrejdum.cz).
+**CS:** Asistent pro správu a ovládání chytré domácnosti. Napíšeš, co chceš, a asistent to v domácím systému
+nastaví – automatizace, místnosti, ovládací panely, kamery i Zigbee. Zdarma odpovídá základní asistent,
+plnou funkčnost má placená AI. Víc na [chytrejdum.cz](https://www.chytrejdum.cz).
 
-## Instalace
+**EN:** A smart home assistant for managing and controlling your home. Say what you want and it sets it up in
+your home system – automations, rooms, dashboards, cameras and Zigbee. A basic assistant answers for free;
+paid AI unlocks everything. More at [chytrejdum.cz/en](https://www.chytrejdum.cz/en/).
 
-1. V domácím systému otevři **Nastavení → Doplňky → Obchod s doplňky**.
-2. Vpravo nahoře **⋮ → Repozitáře** a přidej adresu:
+## Instalace / Installation
+
+1. **Nastavení → Doplňky → Obchod s doplňky** / **Settings → Add-ons → Add-on store**.
+2. **⋮ → Repozitáře / Repositories** a přidej / and add:
    `https://github.com/chytrejdum/chytrejdum-addon`
-3. Najdi **Chytrej dům**, nainstaluj a spusť.
-4. Zapni **Zobrazit na postranním panelu** – v bočním menu přibude **Chytrej dům**
-   (nebo otevři **Otevřít webové rozhraní** přímo u doplňku).
+3. Najdi / Find **Chytrej dům**, nainstaluj a spusť / install and start.
+4. Zapni / Turn on **Zobrazit na postranním panelu / Show in sidebar**.
 
-Doplněk je k dispozici pro počítače amd64 a aarch64 (64bit ARM).
+Pro / For amd64 a / and aarch64 (64-bit ARM).
