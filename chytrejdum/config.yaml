@@ -2,7 +2,7 @@
 # Plná práva jako na krabičce (doplňky, zálohy, aktualizace, kamery, Zigbee); změny jen na pokyn uživatele,
 # rizikové s potvrzením – samo od sebe nastavení systému nemění (agent/chytrejdum_agent/addon.py).
 name: Chytrej dům
-version: "0.9.1"
+version: "0.9.2"
 slug: chytrejdum
 description: Asistent pro správu a ovládání chytré domácnosti.
 url: https://www.chytrejdum.cz
@@ -24,9 +24,27 @@ panel_title: Chytrej dům
 panel_admin: true
 # přístup k domácímu systému přes proxy Supervisoru (SUPERVISOR_TOKEN)
 homeassistant_api: true
-# instalace a správa dalších doplňků (MQTT broker, Zigbee2MQTT, Frigate…)
+# plná správa přes Supervisor: doplňky, zálohy, aktualizace, počítač, síť, nastavení zabezpečení doplňků
 hassio_api: true
-hassio_role: manager
+hassio_role: admin
+auth_api: true
+# soubory domácího systému a ostatních doplňků (konfigurace, sdílené soubory, média, zálohy, certifikáty)
+map:
+  - type: homeassistant_config
+    read_only: false
+  - type: all_addon_configs
+    read_only: false
+  - type: share
+    read_only: false
+  - type: media
+    read_only: false
+  - type: backup
+    read_only: false
+  - type: ssl
+    read_only: false
+# USB a sériová zařízení (Zigbee/Thread adaptéry)
+usb: true
+uart: true
 # přístup k MQTT brokeru, pokud je (Zigbee2MQTT, čidla osob z kamer)
 services:
   - mqtt:want

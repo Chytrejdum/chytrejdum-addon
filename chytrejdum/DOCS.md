@@ -6,7 +6,9 @@ a asistent to nastaví. Přehled všech změn najdeš v **Historii změn**.
 ## Co doplněk smí
 
 - číst a měnit nastavení domácího systému (automatizace, místnosti, ovládací panely, zálohy, aktualizace),
-- instalovat a spouštět další doplňky z katalogu (MQTT broker, Zigbee2MQTT, Frigate pro kamery, Matter, Node-RED),
+- spravovat doplňky, zálohy, aktualizace, počítač a jeho síť přes Supervisor (role admin),
+- číst a měnit soubory domácího systému a ostatních doplňků (konfigurace, sdílené soubory, média, zálohy),
+- používat USB a sériová zařízení (Zigbee a Thread adaptéry),
 - hledat kamery a zařízení v domácí síti.
 
 Rizikové změny (instalace doplňku, aktualizace, smazání, spínání zásuvek) se provedou až po tvém potvrzení
