@@ -21,6 +21,17 @@ vrátit) a stav zabezpečení.
 
 Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
 
+## Co dál asistent umí (placená AI)
+
+- **Tip od AI:** na Přehledu si zapneš tipy. Jednou denně ti asistent podle tvých zařízení navrhne vylepšení,
+  které by tě nenapadlo (světlo jen při pohybu, spotřebič při přebytku energie, zabezpečení). Tlačítko
+  **Udělat to** návrh vloží do chatu. Stojí pár kreditů denně.
+- **Výběr zařízení:** „Jaké čidlo okna koupit do 500 Kč?“ Asistent doporučí zařízení, která s domem fungují,
+  a dohledá jejich dnešní ceny v českých obchodech.
+- **Paměť:** pamatuje si, co máš rád. Uložené vidíš a mažeš na portálu (Nastavení → Paměť asistenta).
+- **Co smí asistent:** v **Zabezpečení** si po oblastech vybereš Smí sám / Jen s potvrzením / Nesmí. Hlídá to
+  doplněk sám, asistent to obejít nemůže.
+
 ## První spuštění
 
 1. U doplňku zapni **Zobrazit na postranním panelu** (nebo klikni na **Otevřít webové rozhraní**).
@@ -66,6 +77,17 @@ can be undone) and a security overview. The app follows your browser language (C
   [moje.chytrejdum.cz](https://moje.chytrejdum.cz) under Plans.
 
 The Overview page always shows under the chat which version is answering.
+
+### More with paid AI
+
+- **AI tip:** turn on tips on the Overview. Once a day the assistant suggests an improvement based on your devices
+  (lights only on motion, an appliance on solar surplus, security). **Do it** puts the suggestion into the chat.
+  It costs a few credits a day.
+- **Choosing devices:** "Which window sensor should I buy for under 500 CZK?" The assistant recommends devices that
+  work with your home and looks up today's prices in Czech shops.
+- **Memory:** it remembers what you like. You see and delete it in the portal (Settings → Assistant memory).
+- **What the assistant may do:** in **Security** you choose per area On its own / Only with my OK / Not allowed.
+  The add-on enforces it – the assistant can't get around it.
 
 ### First start
 
