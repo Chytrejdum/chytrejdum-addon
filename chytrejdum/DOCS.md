@@ -14,7 +14,8 @@ v Historii změn. Sám od sebe doplněk nastavení systému nemění.
 
 ## První spuštění
 
-Otevři panel **Chytrej dům** v bočním menu a spáruj dům se svým účtem na
+U doplňku zapni **Zobrazit na postranním panelu** (nebo klikni na **Otevřít webové rozhraní**).
+V panelu **Chytrej dům** pak spáruj dům se svým účtem na
 [moje.chytrejdum.cz](https://moje.chytrejdum.cz). Bez účtu funguje panel domu, asistent potřebuje účet.
 
 ## Nastavení
