@@ -9,7 +9,7 @@ a asistent to nastaví. Přehled všech změn najdeš v **Historii změn**.
 - spravovat doplňky, zálohy, aktualizace, počítač a jeho síť přes Supervisor (role admin),
 - číst a měnit soubory domácího systému a ostatních doplňků (konfigurace, sdílené soubory, média, zálohy),
 - používat USB a sériová zařízení (Zigbee a Thread adaptéry),
-- hledat kamery a zařízení v domácí síti.
+- hledat kamery a zařízení v domácí síti; kamery přidá do doplňku Frigate a napojí ho na MQTT broker domu (čidla „osoba“).
 
 Rizikové změny (instalace doplňku, aktualizace, smazání, spínání zásuvek) se provedou až po tvém potvrzení
 v Historii změn. Sám od sebe doplněk nastavení systému nemění.
