@@ -1,0 +1,4 @@
+configuration:
+  cloud_url:
+    name: Adresa cloudu
+    description: Měň jen na pokyn podpory.

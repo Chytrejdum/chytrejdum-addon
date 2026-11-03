@@ -1,0 +1,4 @@
+configuration:
+  cloud_url:
+    name: Cloud address
+    description: Change only when support tells you to.

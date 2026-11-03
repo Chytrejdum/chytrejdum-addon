@@ -1,0 +1,35 @@
+# Doplněk „Chytrej dům“ pro stávající instalace domácího systému (bez naší krabičky).
+# Plná práva jako na krabičce (doplňky, zálohy, aktualizace, kamery, Zigbee); změny jen na pokyn uživatele,
+# rizikové s potvrzením – samo od sebe nastavení systému nemění (agent/chytrejdum_agent/addon.py).
+name: Chytrej dům
+version: "0.9.0"
+slug: chytrejdum
+description: Asistent chytré domácnosti – dům nastavíš rozhovorem, každá změna jde vrátit.
+url: https://www.chytrejdum.cz
+image: ghcr.io/chytrejdum/chytrejdum-addon-{arch}
+arch:
+  - aarch64
+  - amd64
+init: false
+startup: application
+boot: auto
+# síť počítače: hledání kamer a zařízení multicastem v domácí síti (jako domácí systém sám)
+host_network: true
+# aplikace domu jen v panelu; naslouchá jen v síti Supervisoru (172.30.32.1), do domácí sítě port nevede
+ingress: true
+ingress_port: 8099
+panel_icon: mdi:home-heart
+panel_title: Chytrej dům
+panel_admin: true
+# přístup k domácímu systému přes proxy Supervisoru (SUPERVISOR_TOKEN)
+homeassistant_api: true
+# instalace a správa dalších doplňků (MQTT broker, Zigbee2MQTT, Frigate…)
+hassio_api: true
+hassio_role: manager
+# přístup k MQTT brokeru, pokud je (Zigbee2MQTT, čidla osob z kamer)
+services:
+  - mqtt:want
+options:
+  cloud_url: https://cloud.chytrejdum.cz
+schema:
+  cloud_url: url
