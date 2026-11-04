@@ -32,6 +32,11 @@ Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
   nefunkční integrace, chyby v protokolu, zálohy a místo na disku; k nalezeným potížím nabídne opravu.
 - **Zná tvůj dům:** mapu místností a zařízení dostává s každou zprávou, takže odpovídá rychleji a nemusí se
   pokaždé ptát, co kde máš. Přezdívky zařízení („ta lampa“) si zapamatuje.
+- **Scény:** „ulož obývák, jak je teď, jako scénu Večer“, „udělej scénu Kino: lampa na 20 %, televize zapnout“
+  – scénu pak spustíš slovem, tlačítkem v domácím systému nebo z automatizace. Umí ji i upravit a smazat.
+- **Denní hlášení:** každé ráno po osmé sám řekne, co dům potřebuje (nedostupné zařízení, slabá baterie,
+  čekající aktualizace, stará záloha, plný disk) – oznámením v domácím systému a nové věci i na telefon.
+  Vypíná se na stránce Stav domu.
 - **Tip od AI:** na Přehledu si zapneš tipy. Jednou denně ti asistent podle tvých zařízení navrhne vylepšení,
   které by tě nenapadlo (světlo jen při pohybu, spotřebič při přebytku energie, zabezpečení). Tlačítko
   **Udělat to** návrh vloží do chatu. Stojí pár kreditů denně.
@@ -105,6 +110,11 @@ The Overview page always shows under the chat which version is answering.
   bedroom at night?" – answered from the home system's logbook and history.
 - **Checks the whole system:** "is everything OK?" – updates, unavailable devices, low batteries, failing
   integrations, errors in the log, backups and disk space; it offers to fix what it finds.
+- **Scenes:** "save the living room as it is now as scene Evening", "make a scene Cinema: lamp at 20 %, TV on"
+  – run it later by asking, from the home system or from an automation. It can also edit and delete scenes.
+- **Daily report:** every morning after eight it tells you on its own what the home needs (an unavailable
+  device, a low battery, a pending update, an old backup, a full disk) – as a notification in the home system,
+  new items also on your phone. Switch it off on the Home status page.
 - **Knows your home:** it gets a map of rooms and devices with every message, so it answers faster and does not
   ask where things are. It remembers device nicknames ("the lamp").
 - **AI tip:** turn on tips on the Overview. Once a day the assistant suggests an improvement based on your devices
