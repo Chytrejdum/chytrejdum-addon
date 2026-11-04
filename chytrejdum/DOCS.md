@@ -51,6 +51,8 @@ Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
   někdo spínač vypne, zhasni“ – asistent to zapíše jako jednu automatizaci s větvením, ne jako tři.
 - **Ovládací panely:** dlaždice s náhledem rozložení, kdo má který panel jako výchozí a na kterých tabletech
   se používá; úpravu popíšeš slovy a asistent ji udělá.
+- **Připomínky, které nevyšumí:** u úkolu zaškrtni „připomínat dál, dokud to neodškrtneš“ – oznámení chodí každé
+  3 hodiny (8–21 h) s tlačítkem Hotovo, které úkol rovnou odškrtne.
 - **Tip od AI:** na Přehledu si zapneš tipy. Jednou denně ti asistent podle tvých zařízení navrhne vylepšení,
   které by tě nenapadlo (světlo jen při pohybu, spotřebič při přebytku energie, zabezpečení). Tlačítko
   **Udělat to** návrh vloží do chatu. Stojí pár kreditů denně.
@@ -145,6 +147,8 @@ The Overview page always shows under the chat which version is answering.
   on…; when someone turns the switch off, lights off" – written as one branching automation, not three.
 - **Dashboards:** tiles with a layout preview, which dashboard is the default and on which tablets it is used;
   describe a change in words and the assistant makes it.
+- **Reminders that do not fade:** tick "keep reminding until ticked off" on a task – the notification repeats
+  every 3 hours (8–21) with a Done button that ticks the task off.
 - **Knows your home:** it gets a map of rooms and devices with every message, so it answers faster and does not
   ask where things are. It remembers device nicknames ("the lamp").
 - **AI tip:** turn on tips on the Overview. Once a day the assistant suggests an improvement based on your devices
