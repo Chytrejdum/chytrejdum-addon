@@ -31,6 +31,15 @@ Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
 - **Paměť:** pamatuje si, co máš rád. Uložené vidíš a mažeš na portálu (Nastavení → Paměť asistenta).
 - **Co smí asistent:** v **Zabezpečení** si po oblastech vybereš Smí sám / Jen s potvrzením / Nesmí. Hlídá to
   doplněk sám, asistent to obejít nemůže.
+- **Vlastní jméno:** asistenta si pojmenuješ jako člena rodiny (Pojmenuj mě v hlavičce rozhovoru) a vybereš
+  Ona / On – mluví pak ve správném rodě.
+- **Potvrzení v rozhovoru:** změny, které potřebují tvůj souhlas, potvrdíš tlačítkem přímo pod odpovědí.
+- **Zařízení po místnostech:** místnosti z domácího systému jako dlaždice, Nezařazené a Objeveno v okolí; po
+  rozkliknutí seznam se stavem online/offline, výrobcem, hledáním, přejmenováním, přesunem i odebráním a s
+  automatizacemi, které zařízení používají.
+- **Hlasové ovládání (MAX):** v chatu mikrofon a čtení odpovědí nahlas.
+- **Úpravy automatizací:** upraví i existující automatizaci – přidá podmínku („světla jsou 15 minut zhasnutá“),
+  práh teploty, tmu, scénu, termostat, žaluzie nebo oznámení na telefon.
 
 ## První spuštění
 
@@ -88,6 +97,13 @@ The Overview page always shows under the chat which version is answering.
 - **Memory:** it remembers what you like. You see and delete it in the portal (Settings → Assistant memory).
 - **What the assistant may do:** in **Security** you choose per area On its own / Only with my OK / Not allowed.
   The add-on enforces it – the assistant can't get around it.
+- **Its own name:** name the assistant like a family member (Name me in the chat header) and pick She / He.
+- **Confirm in the chat:** changes that need your OK are confirmed with a button right under the reply.
+- **Devices by room:** rooms from the home system as tiles, Not in a room and Found nearby; open a room for a
+  list with online/offline, maker, search, rename, move, remove and the automations that use each device.
+- **Voice control (MAX):** a microphone and read-aloud in the chat.
+- **Editing automations:** it changes existing automations too – adds a condition ("lights off for 15 minutes"),
+  a temperature threshold, darkness, a scene, a thermostat, covers or a phone notification.
 
 ### First start
 
