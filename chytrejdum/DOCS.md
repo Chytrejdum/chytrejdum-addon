@@ -45,7 +45,11 @@ Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
 - **Vrata a brána na jedno relé:** z relé, které střídá otevřít–stop–zavřít, udělá pořádná vrata se stavem.
 - **MQTT a vlastní zařízení:** zprávy MQTT v automatizacích, ESPHome krok za krokem (co koupit, nastavení,
   nahrání z prohlížeče).
-- **Povaha:** vedle jména a rodu si vybereš i povahu asistenta (milý, stručný, hravý, klidný).
+- **Povaha:** vedle jména a rodu (ona, on, ono) si vybereš i povahu asistenta (milý, stručný, hravý, klidný).
+- **Jedna automatizace pro víc situací:** „když se otevřou dveře a spínač byl 15 minut vypnutý, zapni…; když
+  někdo spínač vypne, zhasni“ – asistent to zapíše jako jednu automatizaci s větvením, ne jako tři.
+- **Ovládací panely:** dlaždice s náhledem rozložení, kdo má který panel jako výchozí a na kterých tabletech
+  se používá; úpravu popíšeš slovy a asistent ji udělá.
 - **Tip od AI:** na Přehledu si zapneš tipy. Jednou denně ti asistent podle tvých zařízení navrhne vylepšení,
   které by tě nenapadlo (světlo jen při pohybu, spotřebič při přebytku energie, zabezpečení). Tlačítko
   **Udělat to** návrh vloží do chatu. Stojí pár kreditů denně.
@@ -132,7 +136,12 @@ The Overview page always shows under the chat which version is answering.
 - **Garage door or gate on one relay:** turns a relay that cycles open–stop–close into a proper cover with a state.
 - **MQTT and your own devices:** MQTT messages in automations, ESPHome step by step (what to buy, setup,
   flashing from the browser).
-- **Personality:** besides a name and gender you choose the assistant's character (kind, brief, playful, calm).
+- **Personality:** besides a name and gender (she, he, it) you choose the assistant's character (kind, brief,
+  playful, calm).
+- **One automation for several situations:** "when the door opens and the switch was off for 15 minutes, turn
+  on…; when someone turns the switch off, lights off" – written as one branching automation, not three.
+- **Dashboards:** tiles with a layout preview, which dashboard is the default and on which tablets it is used;
+  describe a change in words and the assistant makes it.
 - **Knows your home:** it gets a map of rooms and devices with every message, so it answers faster and does not
   ask where things are. It remembers device nicknames ("the lamp").
 - **AI tip:** turn on tips on the Overview. Once a day the assistant suggests an improvement based on your devices
