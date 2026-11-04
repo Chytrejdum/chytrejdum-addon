@@ -37,6 +37,15 @@ Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
 - **Denní hlášení:** každé ráno po osmé sám řekne, co dům potřebuje (nedostupné zařízení, slabá baterie,
   čekající aktualizace, stará záloha, plný disk) – oznámením v domácím systému a nové věci i na telefon.
   Vypíná se na stránce Stav domu.
+- **Energie a fotovoltaika:** poradí s připojením střídače (Fronius, GoodWe, SMA, SolaX, Growatt, Huawei,
+  Victron, Deye, Solinteg), nastaví spotřebič na přebytek, v levných hodinách podle spotu (OTE) nebo v nízkém
+  tarifu (HDO) a řídí nabíjení baterie.
+- **Větrání a rekuperace:** Luftator a běžné rekuperace – výkon, režimy, klapky zón, větrání podle CO₂ nebo
+  vlhkosti, režimy jako scény.
+- **Vrata a brána na jedno relé:** z relé, které střídá otevřít–stop–zavřít, udělá pořádná vrata se stavem.
+- **MQTT a vlastní zařízení:** zprávy MQTT v automatizacích, ESPHome krok za krokem (co koupit, nastavení,
+  nahrání z prohlížeče).
+- **Povaha:** vedle jména a rodu si vybereš i povahu asistenta (milý, stručný, hravý, klidný).
 - **Tip od AI:** na Přehledu si zapneš tipy. Jednou denně ti asistent podle tvých zařízení navrhne vylepšení,
   které by tě nenapadlo (světlo jen při pohybu, spotřebič při přebytku energie, zabezpečení). Tlačítko
   **Udělat to** návrh vloží do chatu. Stojí pár kreditů denně.
@@ -115,6 +124,15 @@ The Overview page always shows under the chat which version is answering.
 - **Daily report:** every morning after eight it tells you on its own what the home needs (an unavailable
   device, a low battery, a pending update, an old backup, a full disk) – as a notification in the home system,
   new items also on your phone. Switch it off on the Home status page.
+- **Energy and photovoltaics:** helps connect the inverter (Fronius, GoodWe, SMA, SolaX, Growatt, Huawei,
+  Victron, Deye, Solinteg), runs appliances on solar surplus, in cheap spot-price hours or in the low tariff,
+  and manages battery charging.
+- **Ventilation and recuperation:** Luftator and common HRV units – power, modes, zone dampers, ventilation
+  by CO₂ or humidity, modes as scenes.
+- **Garage door or gate on one relay:** turns a relay that cycles open–stop–close into a proper cover with a state.
+- **MQTT and your own devices:** MQTT messages in automations, ESPHome step by step (what to buy, setup,
+  flashing from the browser).
+- **Personality:** besides a name and gender you choose the assistant's character (kind, brief, playful, calm).
 - **Knows your home:** it gets a map of rooms and devices with every message, so it answers faster and does not
   ask where things are. It remembers device nicknames ("the lamp").
 - **AI tip:** turn on tips on the Overview. Once a day the assistant suggests an improvement based on your devices
