@@ -23,6 +23,15 @@ Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
 
 ## Co dál asistent umí (placená AI)
 
+- **Ovládá dům hned:** „rozsviť v obýváku na 30 %“, „nastav topení na 21“, „zamkni“, „pusť scénu Večer“,
+  „zavři žaluzie“ – udělá to rovnou a jde to vrátit v Historii změn. Odemknutí, vypnutí alarmu a otevření vrat
+  nebo brány vždy potvrzuješ.
+- **Ví, co se dělo:** „kdy se naposledy otevřely dveře?“, „kdo rozsvítil v garáži?“, „jak bylo v noci v ložnici?“
+  – odpovídá z deníku a historie domácího systému.
+- **Zkontroluje celý systém:** „je všechno v pořádku?“ – aktualizace, nedostupná zařízení, slabé baterie,
+  nefunkční integrace, chyby v protokolu, zálohy a místo na disku; k nalezeným potížím nabídne opravu.
+- **Zná tvůj dům:** mapu místností a zařízení dostává s každou zprávou, takže odpovídá rychleji a nemusí se
+  pokaždé ptát, co kde máš. Přezdívky zařízení („ta lampa“) si zapamatuje.
 - **Tip od AI:** na Přehledu si zapneš tipy. Jednou denně ti asistent podle tvých zařízení navrhne vylepšení,
   které by tě nenapadlo (světlo jen při pohybu, spotřebič při přebytku energie, zabezpečení). Tlačítko
   **Udělat to** návrh vloží do chatu. Stojí pár kreditů denně.
@@ -89,6 +98,15 @@ The Overview page always shows under the chat which version is answering.
 
 ### More with paid AI
 
+- **Controls the home right away:** "turn the living room lights on at 30 %", "set the heating to 21", "lock up",
+  "run the Evening scene", "close the blinds" – done at once and revertible in Change history. Unlocking,
+  disarming the alarm and opening a garage or gate always need your OK.
+- **Knows what happened:** "when did the door last open?", "who turned the garage light on?", "how warm was the
+  bedroom at night?" – answered from the home system's logbook and history.
+- **Checks the whole system:** "is everything OK?" – updates, unavailable devices, low batteries, failing
+  integrations, errors in the log, backups and disk space; it offers to fix what it finds.
+- **Knows your home:** it gets a map of rooms and devices with every message, so it answers faster and does not
+  ask where things are. It remembers device nicknames ("the lamp").
 - **AI tip:** turn on tips on the Overview. Once a day the assistant suggests an improvement based on your devices
   (lights only on motion, an appliance on solar surplus, security). **Do it** puts the suggestion into the chat.
   It costs a few credits a day.
