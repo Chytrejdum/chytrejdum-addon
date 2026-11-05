@@ -40,24 +40,30 @@ Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
   Vypíná se na stránce Stav domu.
 - **Energie a fotovoltaika:** poradí s připojením střídače (Fronius, GoodWe, SMA, SolaX, Growatt, Huawei,
   Victron, Deye, Solinteg), nastaví spotřebič na přebytek, v levných hodinách podle spotu (OTE) nebo v nízkém
-  tarifu (HDO) a řídí nabíjení baterie.
+  tarifu (HDO) a řídí nabíjení baterie. Nastaví panel Energie (síť se spotovou nebo pevnou cenou, FVE, baterie,
+  spotřebiče) a spočítá, kolik ušetří spotřebič v nejlevnějších hodinách.
 - **Větrání a rekuperace:** Luftator a běžné rekuperace – výkon, režimy, klapky zón, větrání podle CO₂ nebo
   vlhkosti, režimy jako scény.
 - **Vrata a brána na jedno relé:** z relé, které střídá otevřít–stop–zavřít, udělá pořádná vrata se stavem.
-- **MQTT a vlastní zařízení:** zprávy MQTT v automatizacích, ESPHome krok za krokem (co koupit, nastavení,
-  nahrání z prohlížeče).
+- **MQTT a vlastní zařízení:** zprávy MQTT v automatizacích. **Vlastní zařízení na ESP32** (meteostanice, CO₂,
+  hlídač vody, relé, teploměr, hladina v nádrži, čtečka elektroměru a vodoměru, radar přítomnosti): hotové
+  nastavení rovnou v ESPHome, obrázek zapojení a návod krok za krokem na stránce **Přidat zařízení → Vlastní
+  zařízení ESP**.
 - **Povaha:** vedle jména a rodu (ona, on, ono) si vybereš i povahu asistenta (milý, stručný, hravý, klidný).
 - **Jedna automatizace pro víc situací:** „když se otevřou dveře a spínač byl 15 minut vypnutý, zapni…; když
   někdo spínač vypne, zhasni“ – asistent to zapíše jako jednu automatizaci s větvením, ne jako tři.
 - **Ovládací panely:** dlaždice s náhledem rozložení, kdo má který panel jako výchozí a na kterých tabletech
-  se používá; úpravu popíšeš slovy a asistent ji udělá.
+  se používá; úpravu popíšeš slovy a asistent ji udělá přímo v panelu (přidá skupinu nahoru, odebere zařízení,
+  přesune záložku) – nevytváří kopii.
 - **Připomínky, které nevyšumí:** u úkolu zaškrtni „připomínat dál, dokud to neodškrtneš“ – oznámení chodí každé
   3 hodiny (8–21 h) s tlačítkem Hotovo, které úkol rovnou odškrtne.
 - **Tip od AI:** na Přehledu si zapneš tipy. Jednou denně ti asistent podle tvých zařízení navrhne vylepšení,
   které by tě nenapadlo (světlo jen při pohybu, spotřebič při přebytku energie, zabezpečení). Tlačítko
   **Udělat to** návrh vloží do chatu. Stojí pár kreditů denně.
-- **Výběr zařízení:** „Jaké čidlo okna koupit do 500 Kč?“ Asistent doporučí zařízení, která s domem fungují,
-  a dohledá jejich dnešní ceny v českých obchodech.
+- **Výběr zařízení:** „Jaké čidlo okna koupit do 500 Kč?“ nebo „chci hlídat vodu v kotelně“ – asistent doporučí
+  konkrétní druh zařízení, kolik kusů a kam je dát, ověřené modely a dnešní ceny v českých obchodech.
+- **Kamery:** „kdo byl dnes u branky?“ – snímek ukáže přímo v odpovědi. Zóny (kde detekce platí, třeba jen
+  osoby u branky) a místa, kde se pohyb nepočítá (strom, silnice), nakreslíš myší na snímku kamery.
 - **Paměť:** pamatuje si, co máš rád. Uložené vidíš a mažeš na portálu (Nastavení → Paměť asistenta).
 - **Co smí asistent:** v **Zabezpečení** si po oblastech vybereš Smí sám / Jen s potvrzením / Nesmí. Hlídá to
   doplněk sám, asistent to obejít nemůže.
@@ -135,18 +141,21 @@ The Overview page always shows under the chat which version is answering.
   new items also on your phone. Switch it off on the Home status page.
 - **Energy and photovoltaics:** helps connect the inverter (Fronius, GoodWe, SMA, SolaX, Growatt, Huawei,
   Victron, Deye, Solinteg), runs appliances on solar surplus, in cheap spot-price hours or in the low tariff,
-  and manages battery charging.
+  and manages battery charging. Sets up the Energy panel (grid with spot or fixed price, solar, battery,
+  appliances) and calculates what an appliance saves in the cheapest hours.
 - **Ventilation and recuperation:** Luftator and common HRV units – power, modes, zone dampers, ventilation
   by CO₂ or humidity, modes as scenes.
 - **Garage door or gate on one relay:** turns a relay that cycles open–stop–close into a proper cover with a state.
-- **MQTT and your own devices:** MQTT messages in automations, ESPHome step by step (what to buy, setup,
-  flashing from the browser).
+- **MQTT and your own devices:** MQTT messages in automations. **DIY ESP32 devices** (weather station, CO₂, water
+  leak, relay, thermometer, tank level, electricity and water meter reader, presence radar): ready configuration
+  straight in ESPHome, a wiring picture and step-by-step guide under **Add device → DIY ESP devices**.
 - **Personality:** besides a name and gender (she, he, it) you choose the assistant's character (kind, brief,
   playful, calm).
 - **One automation for several situations:** "when the door opens and the switch was off for 15 minutes, turn
   on…; when someone turns the switch off, lights off" – written as one branching automation, not three.
 - **Dashboards:** tiles with a layout preview, which dashboard is the default and on which tablets it is used;
-  describe a change in words and the assistant makes it.
+  describe a change in words and the assistant makes it in place (adds a group on top, removes a device, moves a
+  tab) – no copies.
 - **Reminders that do not fade:** tick "keep reminding until ticked off" on a task – the notification repeats
   every 3 hours (8–21) with a Done button that ticks the task off.
 - **Knows your home:** it gets a map of rooms and devices with every message, so it answers faster and does not
@@ -154,8 +163,11 @@ The Overview page always shows under the chat which version is answering.
 - **AI tip:** turn on tips on the Overview. Once a day the assistant suggests an improvement based on your devices
   (lights only on motion, an appliance on solar surplus, security). **Do it** puts the suggestion into the chat.
   It costs a few credits a day.
-- **Choosing devices:** "Which window sensor should I buy for under 500 CZK?" The assistant recommends devices that
-  work with your home and looks up today's prices in Czech shops.
+- **Choosing devices:** "Which window sensor should I buy for under 500 CZK?" or "I want to watch for water in the
+  boiler room" – the assistant recommends the kind of device, how many and where, verified models and today's
+  prices in Czech shops.
+- **Cameras:** "who was at the gate today?" – the snapshot shows right in the reply. Draw zones (where detections
+  count, e.g. only people at the gate) and areas where motion is ignored (tree, road) on the camera picture.
 - **Memory:** it remembers what you like. You see and delete it in the portal (Settings → Assistant memory).
 - **What the assistant may do:** in **Security** you choose per area On its own / Only with my OK / Not allowed.
   The add-on enforces it – the assistant can't get around it.
