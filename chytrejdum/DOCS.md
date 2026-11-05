@@ -4,16 +4,16 @@
 
 ## Co to je
 
-Asistent pro správu a ovládání chytré domácnosti. Napíšeš mu obyčejnou češtinou, co chceš – třeba
+Tvůj parťák pro chytrou domácnost. Napíšeš mu obyčejnou češtinou, co chceš – třeba
 „rozsviť v noci tlumeně chodbu, když se otevřou dveře“ – a on to v domácím systému nastaví: automatizace,
 místnosti, ovládací panely, kamery, Zigbee i doplňky. Nemusíš znát YAML ani názvy entit.
 
 V panelu **Chytrej dům** najdeš navíc přehled domu, zařízení, Historii změn (každá změna je zapsaná a jde
 vrátit) a stav zabezpečení.
 
-## Základní asistent a placená AI
+## Základní parťák a placená AI
 
-- **Zdarma:** odpovídá vestavěný asistent domácího systému. Zvládne jednoduché ovládání („zhasni v kuchyni“),
+- **Zdarma:** odpovídá vestavěný parťák domácího systému. Zvládne jednoduché ovládání („zhasni v kuchyni“),
   ale ne složitější nastavení a úlohy.
 - **Placená AI:** na každý úkol si vybere vhodný model, nastaví automatizace i ovládací panely a pamatuje si,
   co máš rád. Platí se AI kredity – AI předplatným, nebo jednorázově – na
@@ -21,7 +21,7 @@ vrátit) a stav zabezpečení.
 
 Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
 
-## Co dál asistent umí (placená AI)
+## Co dál parťák umí (placená AI)
 
 - **Ovládá dům hned:** „rozsviť v obýváku na 30 %“, „nastav topení na 21“, „zamkni“, „pusť scénu Večer“,
   „zavři žaluzie“ – udělá to rovnou a jde to vrátit v Historii změn. Odemknutí, vypnutí alarmu a otevření vrat
@@ -49,25 +49,25 @@ Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
   hlídač vody, relé, teploměr, hladina v nádrži, čtečka elektroměru a vodoměru, radar přítomnosti): hotové
   nastavení rovnou v ESPHome, obrázek zapojení a návod krok za krokem na stránce **Přidat zařízení → Vlastní
   zařízení ESP**.
-- **Povaha:** vedle jména a rodu (ona, on, ono) si vybereš i povahu asistenta (milý, stručný, hravý, klidný).
+- **Povaha:** vedle jména a rodu (ona, on, ono) si vybereš i povahu parťáka (milý, stručný, hravý, klidný).
 - **Jedna automatizace pro víc situací:** „když se otevřou dveře a spínač byl 15 minut vypnutý, zapni…; když
-  někdo spínač vypne, zhasni“ – asistent to zapíše jako jednu automatizaci s větvením, ne jako tři.
+  někdo spínač vypne, zhasni“ – parťák to zapíše jako jednu automatizaci s větvením, ne jako tři.
 - **Ovládací panely:** dlaždice s náhledem rozložení, kdo má který panel jako výchozí a na kterých tabletech
-  se používá; úpravu popíšeš slovy a asistent ji udělá přímo v panelu (přidá skupinu nahoru, odebere zařízení,
+  se používá; úpravu popíšeš slovy a parťák ji udělá přímo v panelu (přidá skupinu nahoru, odebere zařízení,
   přesune záložku) – nevytváří kopii.
 - **Připomínky, které nevyšumí:** u úkolu zaškrtni „připomínat dál, dokud to neodškrtneš“ – oznámení chodí každé
   3 hodiny (8–21 h) s tlačítkem Hotovo, které úkol rovnou odškrtne.
-- **Tip od AI:** na Přehledu si zapneš tipy. Jednou denně ti asistent podle tvých zařízení navrhne vylepšení,
+- **Tip od AI:** na Přehledu si zapneš tipy. Jednou denně ti parťák podle tvých zařízení navrhne vylepšení,
   které by tě nenapadlo (světlo jen při pohybu, spotřebič při přebytku energie, zabezpečení). Tlačítko
   **Udělat to** návrh vloží do chatu. Stojí pár kreditů denně.
-- **Výběr zařízení:** „Jaké čidlo okna koupit do 500 Kč?“ nebo „chci hlídat vodu v kotelně“ – asistent doporučí
+- **Výběr zařízení:** „Jaké čidlo okna koupit do 500 Kč?“ nebo „chci hlídat vodu v kotelně“ – parťák doporučí
   konkrétní druh zařízení, kolik kusů a kam je dát, ověřené modely a dnešní ceny v českých obchodech.
 - **Kamery:** „kdo byl dnes u branky?“ – snímek ukáže přímo v odpovědi. Zóny (kde detekce platí, třeba jen
   osoby u branky) a místa, kde se pohyb nepočítá (strom, silnice), nakreslíš myší na snímku kamery.
-- **Paměť:** pamatuje si, co máš rád. Uložené vidíš a mažeš na portálu (Nastavení → Paměť asistenta).
-- **Co smí asistent:** v **Zabezpečení** si po oblastech vybereš Smí sám / Jen s potvrzením / Nesmí. Hlídá to
-  doplněk sám, asistent to obejít nemůže.
-- **Vlastní jméno:** asistenta si pojmenuješ jako člena rodiny (Pojmenuj mě v hlavičce rozhovoru) a vybereš
+- **Paměť:** pamatuje si, co máš rád. Uložené vidíš a mažeš na portálu (Nastavení → Paměť parťáka).
+- **Co smí parťák:** v **Zabezpečení** si po oblastech vybereš Smí sám / Jen s potvrzením / Nesmí. Hlídá to
+  doplněk sám, parťák to obejít nemůže.
+- **Vlastní jméno:** parťáka si pojmenuješ jako člena rodiny (Pojmenuj mě v hlavičce rozhovoru) a vybereš
   Ona / On – mluví pak ve správném rodě.
 - **Potvrzení v rozhovoru:** změny, které potřebují tvůj souhlas, potvrdíš tlačítkem přímo pod odpovědí.
 - **Zařízení po místnostech:** místnosti z domácího systému jako dlaždice, Nezařazené a Objeveno v okolí; po
@@ -106,16 +106,16 @@ Podpora: info@chytrejdum.cz
 
 ### What it is
 
-An assistant for managing and controlling your smart home. Tell it in plain words what you want – for example
+Your smart home buddy. Tell it in plain words what you want – for example
 "dim the hallway lights at night when the door opens" – and it sets it up in your home system: automations,
 rooms, dashboards, cameras, Zigbee and add-ons. No YAML or entity names needed.
 
 The **Chytrej dům** panel also gives you a home overview, devices, Change history (every change is recorded and
 can be undone) and a security overview. The app follows your browser language (Czech or English).
 
-### Basic assistant and paid AI
+### Basic buddy and paid AI
 
-- **Free:** the built-in assistant of your home system answers. It handles simple control ("turn off the kitchen
+- **Free:** the built-in buddy of your home system answers. It handles simple control ("turn off the kitchen
   lights"), but not more complex setup and tasks.
 - **Paid AI:** picks the right model for each task, sets up automations and dashboards, and remembers what you
   like. It's paid with AI credits – an AI subscription or one-off credits – at
@@ -149,29 +149,29 @@ The Overview page always shows under the chat which version is answering.
 - **MQTT and your own devices:** MQTT messages in automations. **DIY ESP32 devices** (weather station, CO₂, water
   leak, relay, thermometer, tank level, electricity and water meter reader, presence radar): ready configuration
   straight in ESPHome, a wiring picture and step-by-step guide under **Add device → DIY ESP devices**.
-- **Personality:** besides a name and gender (she, he, it) you choose the assistant's character (kind, brief,
+- **Personality:** besides a name and gender (she, he, it) you choose the buddy's character (kind, brief,
   playful, calm).
 - **One automation for several situations:** "when the door opens and the switch was off for 15 minutes, turn
   on…; when someone turns the switch off, lights off" – written as one branching automation, not three.
 - **Dashboards:** tiles with a layout preview, which dashboard is the default and on which tablets it is used;
-  describe a change in words and the assistant makes it in place (adds a group on top, removes a device, moves a
+  describe a change in words and the buddy makes it in place (adds a group on top, removes a device, moves a
   tab) – no copies.
 - **Reminders that do not fade:** tick "keep reminding until ticked off" on a task – the notification repeats
   every 3 hours (8–21) with a Done button that ticks the task off.
 - **Knows your home:** it gets a map of rooms and devices with every message, so it answers faster and does not
   ask where things are. It remembers device nicknames ("the lamp").
-- **AI tip:** turn on tips on the Overview. Once a day the assistant suggests an improvement based on your devices
+- **AI tip:** turn on tips on the Overview. Once a day the buddy suggests an improvement based on your devices
   (lights only on motion, an appliance on solar surplus, security). **Do it** puts the suggestion into the chat.
   It costs a few credits a day.
 - **Choosing devices:** "Which window sensor should I buy for under 500 CZK?" or "I want to watch for water in the
-  boiler room" – the assistant recommends the kind of device, how many and where, verified models and today's
+  boiler room" – the buddy recommends the kind of device, how many and where, verified models and today's
   prices in Czech shops.
 - **Cameras:** "who was at the gate today?" – the snapshot shows right in the reply. Draw zones (where detections
   count, e.g. only people at the gate) and areas where motion is ignored (tree, road) on the camera picture.
-- **Memory:** it remembers what you like. You see and delete it in the portal (Settings → Assistant memory).
-- **What the assistant may do:** in **Security** you choose per area On its own / Only with my OK / Not allowed.
-  The add-on enforces it – the assistant can't get around it.
-- **Its own name:** name the assistant like a family member (Name me in the chat header) and pick She / He.
+- **Memory:** it remembers what you like. You see and delete it in the portal (Settings → Buddy memory).
+- **What the buddy may do:** in **Security** you choose per area On its own / Only with my OK / Not allowed.
+  The add-on enforces it – the buddy can't get around it.
+- **Its own name:** name the buddy like a family member (Name me in the chat header) and pick She / He.
 - **Confirm in the chat:** changes that need your OK are confirmed with a button right under the reply.
 - **Devices by room:** rooms from the home system as tiles, Not in a room and Found nearby; open a room for a
   list with online/offline, maker, search, rename, move, remove and the automations that use each device.
