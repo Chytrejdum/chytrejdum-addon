@@ -16,7 +16,7 @@ vrátit) a stav zabezpečení.
 - **Zdarma:** odpovídá vestavěný parťák domácího systému. Zvládne jednoduché ovládání („zhasni v kuchyni“),
   ale ne složitější nastavení a úlohy.
 - **Placená AI:** na každý úkol si vybere vhodný model, nastaví automatizace i ovládací panely a pamatuje si,
-  co máš rád. Platí se AI kredity – AI předplatným, nebo jednorázově – na
+  co máš rád. Platí se AI kredity – 1 000 měsíčně v balíčku PRO, nebo jednorázově – na
   [moje.chytrejdum.cz](https://moje.chytrejdum.cz) v sekci Balíčky.
 
 Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
@@ -73,7 +73,8 @@ Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
 - **Zařízení po místnostech:** místnosti z domácího systému jako dlaždice, Nezařazené a Objeveno v okolí; po
   rozkliknutí seznam se stavem online/offline, výrobcem, hledáním, přejmenováním, přesunem i odebráním a s
   automatizacemi, které zařízení používají.
-- **Hlasové ovládání (MAX):** v chatu mikrofon a čtení odpovědí nahlas.
+- **Hlasové ovládání (PRO):** v chatu mikrofon a čtení odpovědí nahlas.
+- **Fotky v chatu:** pošli parťákovi fotku štítku, zapojení nebo chybové hlášky – poradí podle ní.
 - **Úpravy automatizací:** upraví i existující automatizaci – přidá podmínku („světla jsou 15 minut zhasnutá“),
   práh teploty, tmu, scénu, termostat, žaluzie nebo oznámení na telefon.
 
@@ -118,7 +119,7 @@ can be undone) and a security overview. The app follows your browser language (C
 - **Free:** the built-in buddy of your home system answers. It handles simple control ("turn off the kitchen
   lights"), but not more complex setup and tasks.
 - **Paid AI:** picks the right model for each task, sets up automations and dashboards, and remembers what you
-  like. It's paid with AI credits – an AI subscription or one-off credits – at
+  like. It's paid with AI credits – 1,000 a month with the PRO plan, or one-off credits – at
   [moje.chytrejdum.cz](https://moje.chytrejdum.cz) under Plans.
 
 The Overview page always shows under the chat which version is answering.
@@ -175,7 +176,8 @@ The Overview page always shows under the chat which version is answering.
 - **Confirm in the chat:** changes that need your OK are confirmed with a button right under the reply.
 - **Devices by room:** rooms from the home system as tiles, Not in a room and Found nearby; open a room for a
   list with online/offline, maker, search, rename, move, remove and the automations that use each device.
-- **Voice control (MAX):** a microphone and read-aloud in the chat.
+- **Voice control (PRO):** a microphone and read-aloud in the chat.
+- **Photos in the chat:** send the buddy a photo of a label, wiring or an error message – it advises from it.
 - **Editing automations:** it changes existing automations too – adds a condition ("lights off for 15 minutes"),
   a temperature threshold, darkness, a scene, a thermostat, covers or a phone notification.
 
