@@ -64,7 +64,11 @@ Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
   konkrétní druh zařízení, kolik kusů a kam je dát, ověřené modely a dnešní ceny v českých obchodech.
 - **Kamery:** „kdo byl dnes u branky?“ – snímek ukáže přímo v odpovědi. Zóny (kde detekce platí, třeba jen
   osoby u branky) a místa, kde se pohyb nepočítá (strom, silnice), nakreslíš myší na snímku kamery.
-- **Paměť:** pamatuje si, co máš rád. Uložené vidíš a mažeš na portálu (Nastavení → Paměť parťáka).
+- **Paměť:** v jednom rozhovoru ví všechno, co jste si napsali. **Nový rozhovor** začneš tlačítkem v hlavičce
+  chatu; sám začne i po 6 hodinách bez zprávy a po restartu doplňku (kratší historie = levnější zprávy).
+  Trvalá paměť (placená AI) jsou krátké poznámky o tom, co máš rád – platí ve všech rozhovorech, až 40, dokud je
+  nesmažeš („zapamatuj si…“ / „zapomeň…“; vidíš a mažeš je na portálu v Nastavení → Paměť parťáka). V cloudu se
+  podrobnosti o krocích parťáka drží 30 dní, celý rozhovor 90 dní od poslední zprávy.
 - **Co smí parťák:** v **Zabezpečení** si po oblastech vybereš Smí sám / Jen s potvrzením / Nesmí. Hlídá to
   doplněk sám, parťák to obejít nemůže.
 - **Vlastní jméno:** parťáka si pojmenuješ jako člena rodiny (Pojmenuj mě v hlavičce rozhovoru) a vybereš
@@ -173,7 +177,12 @@ The Overview page always shows under the chat which version is answering.
   prices in Czech shops.
 - **Cameras:** "who was at the gate today?" – the snapshot shows right in the reply. Draw zones (where detections
   count, e.g. only people at the gate) and areas where motion is ignored (tree, road) on the camera picture.
-- **Memory:** it remembers what you like. You see and delete it in the portal (Settings → Buddy memory).
+- **Memory:** within one conversation it knows everything you wrote. Start a **New conversation** with the button
+  in the chat header; a new one also starts after 6 hours without a message and after an add-on restart (shorter
+  history = cheaper messages). Long-term memory (paid AI) is short notes about what you like – used in every
+  conversation, up to 40, until you delete them ("remember…" / "forget…"; see and delete them in the portal under
+  Settings → Buddy memory). In the cloud the details of the buddy's steps are kept for 30 days, a whole
+  conversation for 90 days after the last message.
 - **What the buddy may do:** in **Security** you choose per area On its own / Only with my OK / Not allowed.
   The add-on enforces it – the buddy can't get around it.
 - **Its own name:** name the buddy like a family member (Name me in the chat header) and pick She / He.
