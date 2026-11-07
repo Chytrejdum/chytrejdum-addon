@@ -96,6 +96,10 @@ Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
 - používat USB a sériová zařízení (Zigbee a Thread adaptéry),
 - hledat kamery a zařízení v domácí síti; kamery přidá do doplňku Frigate a napojí ho na MQTT broker domu (čidla „osoba“).
 
+**Proxmox:** běží-li domácí systém na Proxmoxu, propoj ho v Systém → Zálohy Proxmoxu (adresa + API token jen pro
+čtení, role PVEAuditor). Doplněk pak vidí zálohy celých strojů a kontejnerů, nehlásí „zálohy vypnuté“, když zálohuje
+Proxmox, doporučí kopii mimo počítač a najde Frigate v kontejneru. Na Proxmoxu nic nemění.
+
 Kamery z jakékoli integrace domácího systému (ONVIF, Reolink, UniFi Protect…) doplněk vidí na stránce Kamery i bez
 Frigate. Když Frigate běží jinde než jako doplněk (vlastní kontejner, jiný počítač), zadej jeho adresu na stránce Kamery
 (nebo v nastavení doplňku `frigate_url`, třeba `http://192.168.1.50:5000`) – pak jde přes doplněk nastavovat i záznam a hlídání osob.
@@ -208,6 +212,11 @@ The Overview page always shows under the chat which version is answering.
 - use USB and serial devices (Zigbee and Thread adapters),
 - discover cameras and devices on your home network; it adds cameras to the Frigate add-on and connects it to
   the home MQTT broker ("person" sensors).
+
+**Proxmox:** if your home system runs on Proxmox, link it in System → Proxmox backups (address + read-only API
+token, role PVEAuditor). The add-on then sees backups of whole machines and containers, stops reporting "backups
+off" when Proxmox backs up, recommends a copy off the machine and finds Frigate in a container. It changes nothing
+on Proxmox.
 
 Cameras from any integration of the home system (ONVIF, Reolink, UniFi Protect…) show up on the Cameras page even
 without Frigate. When Frigate runs somewhere else than as an add-on (own container, another machine), enter its
