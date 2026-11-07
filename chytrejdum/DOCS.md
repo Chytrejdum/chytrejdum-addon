@@ -93,8 +93,8 @@ Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
 - hledat kamery a zařízení v domácí síti; kamery přidá do doplňku Frigate a napojí ho na MQTT broker domu (čidla „osoba“).
 
 Kamery z jakékoli integrace domácího systému (ONVIF, Reolink, UniFi Protect…) doplněk vidí na stránce Kamery i bez
-Frigate. Když Frigate běží jinde než jako doplněk (vlastní kontejner, jiný počítač), vyplň jeho adresu v nastavení
-doplňku (`frigate_url`, třeba `http://192.168.1.50:5000`) – pak jde přes doplněk nastavovat i záznam a hlídání osob.
+Frigate. Když Frigate běží jinde než jako doplněk (vlastní kontejner, jiný počítač), zadej jeho adresu na stránce Kamery
+(nebo v nastavení doplňku `frigate_url`, třeba `http://192.168.1.50:5000`) – pak jde přes doplněk nastavovat i záznam a hlídání osob.
 
 Rizikové změny (instalace doplňku, aktualizace, smazání, spínání zásuvek) se provedou až po tvém potvrzení
 v Historii změn. Sám od sebe doplněk nastavení systému nemění.
