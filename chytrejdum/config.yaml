@@ -2,7 +2,7 @@
 # Plná práva jako na krabičce (doplňky, zálohy, aktualizace, kamery, Zigbee); změny jen na pokyn uživatele,
 # rizikové s potvrzením – samo od sebe nastavení systému nemění (agent/chytrejdum_agent/addon.py).
 name: Chytrej dům
-version: "0.9.22"
+version: "0.9.24"
 slug: chytrejdum
 description: Tvůj parťák pro chytrou domácnost. · Your smart home buddy.
 url: https://www.chytrejdum.cz
@@ -50,5 +50,9 @@ services:
   - mqtt:want
 options:
   cloud_url: https://cloud.chytrejdum.cz
+# frigate_url: Frigate, který neběží jako doplněk (vlastní kontejner, jiný počítač) – http://adresa:5000;
+# frigate_rtsp: jeho RTSP výstup (jinak rtsp://stejná-adresa:8554). Doplněk Frigate se najde sám.
 schema:
   cloud_url: url
+  frigate_url: url?
+  frigate_rtsp: str?

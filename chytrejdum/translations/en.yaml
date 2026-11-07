@@ -2,3 +2,9 @@ configuration:
   cloud_url:
     name: Cloud address
     description: Change only when support tells you to.
+  frigate_url:
+    name: Frigate address (when not an add-on)
+    description: Frigate in its own container or on another machine, e.g. http://192.168.1.50:5000. The Frigate add-on is found automatically, leave this empty.
+  frigate_rtsp:
+    name: Frigate RTSP address
+    description: Only when it differs from rtsp://same-address:8554.

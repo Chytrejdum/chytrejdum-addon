@@ -92,6 +92,10 @@ Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
 - používat USB a sériová zařízení (Zigbee a Thread adaptéry),
 - hledat kamery a zařízení v domácí síti; kamery přidá do doplňku Frigate a napojí ho na MQTT broker domu (čidla „osoba“).
 
+Kamery z jakékoli integrace domácího systému (ONVIF, Reolink, UniFi Protect…) doplněk vidí na stránce Kamery i bez
+Frigate. Když Frigate běží jinde než jako doplněk (vlastní kontejner, jiný počítač), vyplň jeho adresu v nastavení
+doplňku (`frigate_url`, třeba `http://192.168.1.50:5000`) – pak jde přes doplněk nastavovat i záznam a hlídání osob.
+
 Rizikové změny (instalace doplňku, aktualizace, smazání, spínání zásuvek) se provedou až po tvém potvrzení
 v Historii změn. Sám od sebe doplněk nastavení systému nemění.
 
@@ -195,6 +199,11 @@ The Overview page always shows under the chat which version is answering.
 - use USB and serial devices (Zigbee and Thread adapters),
 - discover cameras and devices on your home network; it adds cameras to the Frigate add-on and connects it to
   the home MQTT broker ("person" sensors).
+
+Cameras from any integration of the home system (ONVIF, Reolink, UniFi Protect…) show up on the Cameras page even
+without Frigate. When Frigate runs somewhere else than as an add-on (own container, another machine), enter its
+address in the add-on settings (`frigate_url`, e.g. `http://192.168.1.50:5000`) – recording and person detection
+can then be set up through the add-on too.
 
 Risky changes (installing an add-on, updates, deleting, switching sockets) only happen after you confirm them
 in Change history. The add-on never changes your system on its own.
