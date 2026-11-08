@@ -96,9 +96,11 @@ Na Přehledu pod chatem vždy vidíš, která verze ti odpovídá.
 - používat USB a sériová zařízení (Zigbee a Thread adaptéry),
 - hledat kamery a zařízení v domácí síti; kamery přidá do doplňku Frigate a napojí ho na MQTT broker domu (čidla „osoba“).
 
-**Proxmox:** běží-li domácí systém na Proxmoxu, propoj ho v Systém → Zálohy Proxmoxu (adresa + API token jen pro
-čtení, role PVEAuditor). Doplněk pak vidí zálohy celých strojů a kontejnerů, nehlásí „zálohy vypnuté“, když zálohuje
-Proxmox, doporučí kopii mimo počítač a najde Frigate v kontejneru. Na Proxmoxu nic nemění.
+**Proxmox:** běží-li domácí systém na Proxmoxu, propoj ho na stránce Proxmox v menu (adresa + API token; jen pro
+čtení stačí role PVEAuditor). Doplněk pak ukáže vytížení počítače, všechny stroje a kontejnery a jejich zálohy, nehlásí
+„zálohy vypnuté“, když zálohuje Proxmox, doporučí kopii mimo počítač a najde Frigate v kontejneru. S rolemi
+PVEVMAdmin a PVEDatastoreUser tam stroje zapneš, vypneš, restartuješ, zazálohuješ, uděláš snapshot nebo změníš
+procesory a paměť (Historie změn, vrácení).
 
 Kamery z jakékoli integrace domácího systému (ONVIF, Reolink, UniFi Protect…) doplněk vidí na stránce Kamery i bez
 Frigate. Když Frigate běží jinde než jako doplněk (vlastní kontejner, jiný počítač), zadej jeho adresu na stránce Kamery
