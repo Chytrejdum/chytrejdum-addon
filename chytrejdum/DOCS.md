@@ -23,7 +23,8 @@ zapsaná a jde vrátit.
   (Fully Kiosk): co ukazuje, jas, zhasínání, probuzení pohybem, hlasitost.
 - **Správce domu** – **Doklady** a **Smlouvy a revize**: vyfotíš účtenku, smlouvu nebo revizní zprávu, parťák
   z ní vyčte cenu, datum a záruku a **Hlídač** termín sám připomene. **Nákup a zásoby**: položky z účtenek
-  z obchodu se přičtou do zásob a co dochází, jde na nákupní seznam. Filtry, poplatky a svoz odpadu.
+  z obchodu se přičtou do zásob a co dochází, jde na nákupní seznam. **Svoz odpadu**: nejbližší svozy po dnech
+  s připomínkou večer předem. Filtry a poplatky.
 - **Uživatelé** – **Osoby v domácnosti** (správce nebo uživatel, telefon s polohou a upozorněními, výchozí panel,
   fotka i pro rozpoznávání obličejů) a **účty pro zařízení** (tablet, telefon, auto – kde a kdy se používají).
 - **Upozornění** – jak a kam upozorňovat (problémy domu, kamery, výpadek internetu) a historie posledních
@@ -169,7 +170,7 @@ recorded and can be undone.
 - **House manager** – **Documents** and **Contracts and inspections**: take a photo of a receipt, contract or
   inspection report, the buddy reads the price, date and warranty and the **Watcher** reminds you in time.
   **Shopping and pantry**: items from shop receipts go into the pantry and what runs low goes on the shopping
-  list. Filters, fees and bin collection.
+  list. **Bin collection**: the next collections day by day with a reminder the evening before. Filters and fees.
 - **Users** – **People in the household** (admin or user, phone with location and notifications, default
   dashboard, a photo also used for face recognition) and **accounts for devices** (tablet, phone, car – where and
   when they are used).
