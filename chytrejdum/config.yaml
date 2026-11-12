@@ -2,9 +2,9 @@
 # Plná práva jako na krabičce (doplňky, zálohy, aktualizace, kamery, Zigbee); změny jen na pokyn uživatele,
 # rizikové s potvrzením – samo od sebe nastavení systému nemění (agent/chytrejdum_agent/addon.py).
 name: Chytrej dům
-version: "0.9.82"
+version: "0.9.83"
 slug: chytrejdum
-description: Tvůj parťák pro chytrou domácnost. · Your smart home buddy.
+description: "Parťák pro chytrou domácnost: nastavení větou, zařízení, kamery, doklady a připomínky, zálohy, hesla a soukromí. · Smart home buddy: setup in plain words, devices, cameras, documents and reminders, backups, passwords and privacy."
 url: https://www.chytrejdum.cz
 image: ghcr.io/chytrejdum/chytrejdum-addon-{arch}
 arch:
