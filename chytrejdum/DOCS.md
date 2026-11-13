@@ -62,7 +62,9 @@ Kolik kreditů zbývá, vidíš pořád dole v menu.
   nefunkční integrace, chyby v protokolu, zálohy a místo na disku; k nalezeným potížím nabídne opravu.
 - **Automatizace a scény:** vytvoří i upraví („přidej podmínku, že světla jsou 15 minut zhasnutá“), víc situací
   zapíše jako jednu automatizaci s větvením. „Ulož obývák, jak je teď, jako scénu Večer.“
-- **Ovládací panely:** úpravu popíšeš slovy a parťák ji udělá přímo v panelu – nevytváří kopii.
+- **Ovládací panely:** úpravu popíšeš slovy a parťák ji udělá přímo v panelu – nevytváří kopii. Umí i ručně
+  dělané karty a karty doplňků (button-card, Bubble Card, Mushroom): změní jméno, ikonu, akci nebo vzhled, přidá
+  další tlačítko ve stejném stylu. Kartu s vlastním kódem vždy potvrzuješ.
 - **Kamery:** „kdo byl dnes u branky?“ ukáže snímek z události. „Je otevřená brána?“ – vezme si aktuální snímek
   kamery a odpoví podle něj.
 - **Doklady a Správce domu:** z fotky nebo PDF vyčte údaje dokladu, smlouvy či revize; „připomeň mi za rok revizi
@@ -211,7 +213,9 @@ The credits you have left are always shown at the bottom of the menu.
 - **Automations and scenes:** creates and edits them ("add a condition that the lights have been off for 15
   minutes"), writes several situations as one branching automation. "Save the living room as it is now as scene
   Evening."
-- **Dashboards:** describe a change in words and the buddy makes it in place – no copies.
+- **Dashboards:** describe a change in words and the buddy makes it in place – no copies. It also edits
+  hand-made and add-on cards (button-card, Bubble Card, Mushroom): name, icon, action or look, and adds another
+  button in the same style. A card with its own code always needs your OK.
 - **Cameras:** "who was at the gate today?" shows the event snapshot. "Is the gate open?" – it takes the current
   camera picture and answers from it.
 - **Documents and House manager:** reads a receipt, contract or inspection report from a photo or PDF; "remind me
