@@ -64,7 +64,9 @@ Kolik kreditů zbývá, vidíš pořád dole v menu.
   zapíše jako jednu automatizaci s větvením. „Ulož obývák, jak je teď, jako scénu Večer.“
 - **Ovládací panely:** úpravu popíšeš slovy a parťák ji udělá přímo v panelu – nevytváří kopii. Umí i ručně
   dělané karty a karty doplňků (button-card, Bubble Card, Mushroom): změní jméno, ikonu, akci nebo vzhled, přidá
-  další tlačítko ve stejném stylu. Kartu s vlastním kódem vždy potvrzuješ.
+  další tlačítko ve stejném stylu. Kartu s vlastním kódem vždy potvrzuješ. Nastaví i **pozadí záložky** – barvu
+  nebo obrázek, který pošleš do chatu, a z jedné fotky připraví pozadí, které se samo mění podle denní doby
+  a počasí (úpravy téže fotky přímo v domě, bez kreditů).
 - **Kamery:** „kdo byl dnes u branky?“ ukáže snímek z události. „Je otevřená brána?“ – vezme si aktuální snímek
   kamery a odpoví podle něj.
 - **Doklady a Správce domu:** z fotky nebo PDF vyčte údaje dokladu, smlouvy či revize; „připomeň mi za rok revizi
