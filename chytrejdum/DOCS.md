@@ -95,9 +95,11 @@ Kolik kreditů zbývá, vidíš pořád dole v menu.
 
 ## Co smí parťák a soukromí
 
-- **Co smí parťák:** v **Hesla a soukromí** si pro každou oblast (ovládání zařízení, automatizace, panely,
-  zařízení, kamery, síť, energie, systém, Proxmox, Správce domu) vybereš **Smí sám** / **Jen s potvrzením** /
-  **Nesmí**. Hlídá to doplněk sám, parťák to obejít nemůže.
+- **Co smí parťák:** v **Hesla a soukromí** si pro každou oblast (ovládání zařízení, zámky/alarm/vrata, automatizace,
+  panely, zařízení, kamery, nastavení kamerového záznamu, síť, energie, systém, Proxmox, Správce domu) vybereš
+  **Smí sám** / **Jen s potvrzením** / **Nesmí**. Hlídá to doplněk sám, parťák to obejít nemůže.
+  Od verze 0.9.104 mají **zámky, alarm, vrata a brány** a **nastavení kamerového záznamu** vlastní přepínač s výchozí
+  volbou Jen s potvrzením; vrácení změny se řídí oblastí, do které původní změna patří.
   - *Smí sám* = změnu udělá bez ptaní, i riskantní (třeba odemknout nebo otevřít vrata) – vždy po záloze,
     zapíše ji do Historie změn a jde vrátit.
   - Ve výchozím nastavení mají síť, systém a Proxmox *Jen s potvrzením*, ostatní *Smí sám*.
