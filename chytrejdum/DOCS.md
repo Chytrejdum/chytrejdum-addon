@@ -27,6 +27,8 @@ zapsaná a jde vrátit.
   s připomínkou večer předem. Filtry a poplatky.
 - **Uživatelé** – **Osoby v domácnosti** (správce nebo uživatel, telefon s polohou a upozorněními, výchozí panel,
   fotka i pro rozpoznávání obličejů) a **účty pro zařízení** (tablet, telefon, auto – kde a kdy se používají).
+  Samotnou aplikaci Chytrej dům otevře jen **správce** domácího systému; doplněk si to ověřuje sám (od 0.9.105),
+  takže ji neotevře běžný uživatel ani účet pro zařízení, ani na starší verzi Supervisoru.
 - **Upozornění** – jak a kam upozorňovat (problémy domu, kamery, výpadek internetu) a historie posledních
   upozornění s možností je blokovat.
 - **Historie změn** – jeden řádek za každou změnu od parťáka a každou aktualizaci, s tlačítkem **Vrátit** nebo
@@ -136,6 +138,19 @@ v kontejneru. S rolemi PVEVMAdmin a PVEDatastoreUser tam stroje zapneš, vypneš
 uděláš snapshot nebo změníš procesory a paměť (Historie změn, vrácení). Pro pokročilé je tam i odkaz na terminál
 a web Proxmoxu.
 
+**Aktualizace Proxmoxu a kontejnerů (od 0.9.106):** v **Systém → Aktualizace** klikni na **Zapnout aktualizace
+z aplikace**, vlož zobrazený příkaz do konzole Proxmoxu a potvrď **Ověřit spojení**. Příkaz nainstaluje malého
+pomocníka (jen aktualizace – zjistit a nainstalovat). Pak nainstaluješ aktualizace počítače i každého kontejneru
+(Debian, Ubuntu, Alpine) přímo z aplikace, s ukazatelem průběhu; před aktualizací kontejneru se udělá snapshot.
+Dům nové aktualizace hlídá dvakrát denně a ohlásí je v Upozorněních. Odinstalace pomocníka: příkaz je tamtéž
+pod **Vypnout aktualizace z aplikace**.
+
+**Aktualizace domácího systému:** nastavení (samy v noci / jen na kliknutí) je nahoře, seznam je rozdělený na
+Systém, Aplikace a Zařízení a po kliknutí na Nainstalovat běží ukazatel průběhu (záloha → instalace → dokončení).
+
+**Síťové disky pro zálohy:** **Systém → Úložiště → Síťový disk (NAS) → Najít síťové disky v domácí síti** vypíše
+disky, které se v síti samy hlásí (Bonjour), ukáže jejich sdílené složky a vybranou připojí jedním klikem.
+
 Kamery z jakékoli integrace domácího systému (ONVIF, Reolink, UniFi Protect…) doplněk vidí na stránce Kamery
 i bez Frigate. Když Frigate běží jinde než jako doplněk (vlastní kontejner, jiný počítač), zadej jeho adresu na
 stránce Kamery (nebo v nastavení doplňku `frigate_url`, třeba `http://192.168.1.50:5000`) – pak jde přes doplněk
@@ -179,7 +194,9 @@ recorded and can be undone.
   list. **Bin collection**: the next collections day by day with a reminder the evening before. Filters and fees.
 - **Users** – **People in the household** (admin or user, phone with location and notifications, default
   dashboard, a photo also used for face recognition) and **accounts for devices** (tablet, phone, car – where and
-  when they are used).
+  when they are used). Only an **administrator** of the home system can open the Chytrej dům app itself; the
+  add-on verifies this on its own (since 0.9.105), so a regular user or a device account cannot open it, not even
+  on an older Supervisor.
 - **Alerts** – how and where to notify (home problems, cameras, internet outage) and a history of recent alerts
   with a block button.
 - **Change history** – one line per change made by the buddy and per update, with **Revert** or **Restore from
@@ -287,6 +304,20 @@ containers and their backups, stops reporting "backups off" when Proxmox backs u
 machine and finds Frigate in a container. With the PVEVMAdmin and PVEDatastoreUser roles you can start, stop,
 restart and back up machines, take snapshots or change CPUs and memory there (Change history, revert). For
 advanced users there is also a link to the Proxmox terminal and web.
+
+**Proxmox and container updates (since 0.9.106):** in **System → Updates** click **Turn on updates from the
+app**, paste the shown command into the Proxmox console and confirm with **Check the connection**. The command
+installs a small helper (updates only – check and install). After that you install updates of the computer and
+of every container (Debian, Ubuntu, Alpine) right from the app, with a progress bar; a snapshot is taken before
+a container is updated. The house checks for new updates twice a day and reports them in Alerts. To uninstall
+the helper use the command shown under **Turn off updates from the app**.
+
+**Home system updates:** the setting (nightly / only on my click) is at the top, the list is split into System,
+Apps and Devices, and after clicking Install a progress bar runs (backup → install → finishing).
+
+**Network disks for backups:** **System → Storage → Network disk (NAS) → Find network disks in the home
+network** lists disks that announce themselves (Bonjour), shows their shared folders and connects the chosen
+one with one click.
 
 Cameras from any integration of the home system (ONVIF, Reolink, UniFi Protect…) show up on the Cameras page even
 without Frigate. When Frigate runs somewhere else than as an add-on (own container, another machine), enter its
