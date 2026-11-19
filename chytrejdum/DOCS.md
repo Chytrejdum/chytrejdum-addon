@@ -31,8 +31,8 @@ zapsaná a jde vrátit.
   takže ji neotevře běžný uživatel ani účet pro zařízení, ani na starší verzi Supervisoru.
 - **Upozornění** – jak a kam upozorňovat (problémy domu, kamery, výpadek internetu) a historie posledních
   upozornění s možností je blokovat.
-- **Historie změn** – jeden řádek za každou změnu od parťáka a každou aktualizaci, s tlačítkem **Vrátit** nebo
-  **Obnovit ze zálohy**.
+- **Historie změn** – jeden řádek za každou změnu, barevně podle toho, kdo ji udělal (parťák, ty, systém),
+  s filtrem nahoře a se štítky u aktualizací a restartů; tlačítko **Vrátit** nebo **Obnovit ze zálohy**.
 - **Hesla a soukromí** – šifrovaný **Trezor hesel** (kamery, zařízení, router, účty; klíč je jen v domě),
   přehled **Kam odcházejí tvá data** a posuvníky **Co smí parťák**.
 - **Síť** – Správce sítě pro router MikroTik (Wi-Fi, zařízení v síti, doporučený firewall; každá změna jde
@@ -145,6 +145,13 @@ pomocníka (jen aktualizace – zjistit a nainstalovat). Pak nainstaluješ aktua
 Dům nové aktualizace hlídá dvakrát denně a ohlásí je v Upozorněních. Odinstalace pomocníka: příkaz je tamtéž
 pod **Vypnout aktualizace z aplikace**.
 
+Od 0.9.107 navíc: **Restartovat počítač** (když po aktualizaci jádra čeká na restart – celý dům je pár minut mimo
+provoz, aplikace předem řekne, které stroje se samy nezapnou), volba **Aktualizovat Proxmox a kontejnery samy
+v noci** (výchozí vypnuto; mezi 2. a 5. hodinou, kontejnery se snapshotem, bez restartu počítače) a **hlídání
+verzí aplikací v kontejnerech** (Docker, např. Frigate – dům řekne, že vyšla nová verze; neinstaluje ji).
+Aktualizace i restart umí na požádání i parťák (restart vždy s potvrzením). Kdo má pomocníka z 0.9.106, spustí
+jednou příkaz, který aplikace ukáže – neobsahuje žádný klíč.
+
 **Aktualizace domácího systému:** nastavení (samy v noci / jen na kliknutí) je nahoře, seznam je rozdělený na
 Systém, Aplikace a Zařízení a po kliknutí na Nainstalovat běží ukazatel průběhu (záloha → instalace → dokončení).
 
@@ -199,8 +206,8 @@ recorded and can be undone.
   on an older Supervisor.
 - **Alerts** – how and where to notify (home problems, cameras, internet outage) and a history of recent alerts
   with a block button.
-- **Change history** – one line per change made by the buddy and per update, with **Revert** or **Restore from
-  backup**.
+- **Change history** – one line per change, coloured by who made it (buddy, you, system), with a filter on top
+  and labels on updates and restarts; **Revert** or **Restore from backup**.
 - **Passwords and privacy** – the encrypted **Password vault** (cameras, devices, router, accounts; the key stays
   at home), the **Where your data goes** overview and the **What the buddy may do** sliders.
 - **Network** – the network manager for a MikroTik router (Wi-Fi, devices on the network, recommended firewall;
@@ -311,6 +318,14 @@ installs a small helper (updates only – check and install). After that you ins
 of every container (Debian, Ubuntu, Alpine) right from the app, with a progress bar; a snapshot is taken before
 a container is updated. The house checks for new updates twice a day and reports them in Alerts. To uninstall
 the helper use the command shown under **Turn off updates from the app**.
+
+Since 0.9.107 also: **Restart the computer** (when it waits for a restart after a kernel update – the whole home
+is down for a few minutes; the app tells you beforehand which machines will not start by themselves), the option
+**Update Proxmox and containers automatically at night** (off by default; between 2 and 5 a.m., containers with
+a snapshot, never a restart of the computer) and **watching versions of apps in containers** (Docker, e.g.
+Frigate – the house tells you a new version is out; it does not install it). Your buddy can install updates and
+restart on request too (a restart is always confirmed). If you have the helper from 0.9.106, run once the
+command the app shows – it contains no key.
 
 **Home system updates:** the setting (nightly / only on my click) is at the top, the list is split into System,
 Apps and Devices, and after clicking Install a progress bar runs (backup → install → finishing).
