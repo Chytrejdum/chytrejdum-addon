@@ -13,7 +13,7 @@ zapsaná a jde vrátit.
 
 ## Co najdeš v panelu Chytrej dům
 
-- **Parťák** (první položka, nese jeho jméno) – rozhovor, stav domu, co tě čeká a denní tipy.
+- **Parťák** (první položka, nese jeho jméno) – rozhovor přes celé okno s návrhy otázek (stav, zálohy, aktualizace, tipy) a co tě čeká.
 - **Zařízení** – místnosti jako dlaždice, přidání zařízení krok za krokem (Zigbee, Wi-Fi, Matter, ESP),
   hromadné přesuny, **Hlídač baterií**, **Hlídač odpojených zařízení** a **Úklid** (co v domě už nežije).
 - **Kamery** – hledání kamer v síti, silná hesla místo výchozích, záznam a rozpoznávání osob, aut a zvířat ve
@@ -84,8 +84,8 @@ Kolik kreditů zbývá, vidíš pořád dole v menu.
 - **Výběr zařízení:** „chci hlídat vodu v kotelně, co koupit?“ – druh zařízení, kolik kusů, kam je dát
   a dnešní ceny v českých obchodech.
 - **Virtuální stroje (Proxmox):** „restartuj Frigate“, „zazálohuj domácí systém“, „přidej mu paměť“.
-- **Denní hlášení a tipy:** každé ráno sám řekne, co dům potřebuje; jednou denně navrhne vylepšení podle tvých
-  zařízení (tlačítko **Udělat to**).
+- **Denní hlášení a tipy:** každé ráno sám řekne, co dům potřebuje; o tip na vylepšení si řekneš v návrzích pod
+  rozhovorem („Máš pro mě tip?“).
 - **Fotky a diktování:** tlačítkem **+** přiložíš až tři fotky (štítek, zapojení, chybová hláška, snímek
   obrazovky). Tlačítkem **Mluvit** zprávu nadiktuješ – řeč na text převádí tvůj prohlížeč nebo telefon.
   Čtení odpovědí přirozeným hlasem připravujeme.
@@ -99,8 +99,9 @@ Kolik kreditů zbývá, vidíš pořád dole v menu.
 
 Když na něco nestačí běžné nástroje – zařízení, které se nastavuje jen ve vlastní webové stránce (rozdělovač
 vzduchu, koordinátor Zigbee), nebo doladění vzhledu panelu – parťák požádá o **ruční režim**: prohlížeč, který běží
-v doplňku a který parťák ovládá jako člověk. Vstup vždy potvrzuješ tlačítkem v chatu (platí 30 minut), pod
-rozhovorem vidíš živý náhled a tlačítko **Zastavit**. Prohlížeč se dostane jen na domácí systém a do domácí sítě,
+v doplňku a který parťák ovládá jako člověk. Vstup potvrzuješ jednou tlačítkem v chatu – povolení platí 30 minut
+pro celou domácí síť, jde prodloužit a parťák po něm pokračuje sám. Pod rozhovorem vidíš malý živý náhled (kliknutím
+se zvětší), zbývající čas a tlačítka **Prodloužit** a **Zastavit**. Prohlížeč se dostane jen na domácí systém a do domácí sítě,
 na internet ne. Změny udělané přímo ve stránce zařízení nejdou automaticky vrátit. Do domácího systému se
 přihlašuje vlastním místním účtem „Parťák – ruční režim“.
 
