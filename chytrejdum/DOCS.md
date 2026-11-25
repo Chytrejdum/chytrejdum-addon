@@ -95,6 +95,15 @@ Kolik kreditů zbývá, vidíš pořád dole v menu.
   rád – až 40, dokud je nesmažeš („zapamatuj si…“ / „zapomeň…“; vidíš a mažeš je na portálu v Nastavení →
   Paměť parťáka). V cloudu se podrobnosti o krocích parťáka drží 30 dní, celý rozhovor 90 dní od poslední zprávy.
 
+### Ruční režim (PRO)
+
+Když na něco nestačí běžné nástroje – zařízení, které se nastavuje jen ve vlastní webové stránce (rozdělovač
+vzduchu, koordinátor Zigbee), nebo doladění vzhledu panelu – parťák požádá o **ruční režim**: prohlížeč, který běží
+v doplňku a který parťák ovládá jako člověk. Vstup vždy potvrzuješ tlačítkem v chatu (platí 30 minut), pod
+rozhovorem vidíš živý náhled a tlačítko **Zastavit**. Prohlížeč se dostane jen na domácí systém a do domácí sítě,
+na internet ne. Změny udělané přímo ve stránce zařízení nejdou automaticky vrátit. Do domácího systému se
+přihlašuje vlastním místním účtem „Parťák – ruční režim“.
+
 ## Co smí parťák a soukromí
 
 - **Co smí parťák:** v **Hesla a soukromí** si pro každou oblast (ovládání zařízení, zámky/alarm/vrata, automatizace,
@@ -270,6 +279,15 @@ The credits you have left are always shown at the bottom of the menu.
   is short notes about what you like – up to 40, until you delete them ("remember…" / "forget…"; see and delete
   them in the portal under Settings → Buddy memory). In the cloud the details of the buddy's steps are kept for
   30 days, a whole conversation for 90 days after the last message.
+
+#### Manual mode (PRO)
+
+When the normal tools cannot reach something – a device configured only in its own web page (an air distribution
+box, a Zigbee coordinator) or fine-tuning how a dashboard looks – the buddy asks for **manual mode**: a browser
+running inside the add-on that it drives like a person. You always confirm it with the button in the chat (valid
+for 30 minutes), a live preview with a **Stop** button is shown under the conversation. The browser reaches only
+the home system and the home network, never the internet. Changes made in a device's own page cannot be undone
+automatically. It signs in to the home system with its own local account “Parťák – ruční režim”.
 
 ### What the buddy may do, and privacy
 
