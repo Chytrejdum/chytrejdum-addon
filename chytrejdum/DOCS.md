@@ -89,6 +89,9 @@ Kolik kreditů zbývá, vidíš pořád dole v menu.
 - **Fotky a diktování:** tlačítkem **+** přiložíš až tři fotky (štítek, zapojení, chybová hláška, snímek
   obrazovky). Tlačítkem **Mluvit** zprávu nadiktuješ – řeč na text převádí tvůj prohlížeč nebo telefon.
   Čtení odpovědí přirozeným hlasem připravujeme.
+- **Povely hlasem:** jednoduchý povel („zhasni v kuchyni“) vyřídí domácí systém sám – hned, bez internetu
+  a bez kreditů. Aby rozuměl i skloňovaným názvům („zapni lampu“), řekni parťákovi „přidej přezdívky pro hlas“:
+  doplní k zařízením a místnostem české tvary a nabídne zařízení, která hlasu zatím vystavená nejsou. Jde vrátit.
 - **Jméno, rod a povaha:** parťáka si pojmenuješ jako člena rodiny (ona, on, ono) a vybereš povahu.
 - **Paměť:** v jednom rozhovoru ví všechno, co jste si napsali; **Nový rozhovor** začneš tlačítkem v hlavičce
   (sám začne i po 6 hodinách bez zprávy a po restartu doplňku). Trvalá paměť jsou krátké poznámky o tom, co máš
